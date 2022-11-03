@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="a">Nombre:</label><input class="x" id="a" type="text" placeholder="Escribe tu Nombre completo"><br>
+                <label for="b">Email:</label><input class="x" id="b" type="email" placeholder="ejemplo@dominio.com"><br>
+                <label for="c">Teléfono:</label><input class="x" id="c" type="number" placeholder="Ej +51 987654321"><br>
+                <label for="d">País:</label><input class="x" id="d" type="text">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Datos de tarjeta de crédito</legend>
+                <label for="e">Número:</label><input class="x" type="number" placeholder="Ej xxxx-xxxx-xxxx-xxxx" min="1" max="9"><br>
+                <label for="f">Nombre:</label><input class="x" id="f" type="text" name="nombre" placeholder="Nombre exacto del propietario"><br>
+            </fieldset>
+            <br><br>
+            <hr>
+            <input id='boton' type="button" value="Realizar compra" onclick="alert('Su compra fue exitosa')">
+        </form>
+    </div>
+</body>
+
+</html>
